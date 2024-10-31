@@ -1,0 +1,146 @@
+/* Bootstrap utils */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: calc(1.5rem * 0.5);
+    padding-left: calc(1.5rem * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * 0);
+    margin-right: calc(-0.5 * 1.5rem);
+    margin-left: calc(-0.5 * 1.5rem);
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(1.5rem * 0.5);
+    padding-left: calc(1.5rem * 0.5);
+    margin-top: 0;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.w-75 {
+    width: 75% !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-radius: 0.375rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.lh-lg {
+    line-height: 2 !important;
+}
+
+.fw-semibold {
+    font-weight: 600 !important;
+}
+
+.fs-3 {
+    font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+.fs-5 {
+    font-size: 1.25rem !important;
+}
+
+.rounded-3 {
+    border-radius: 0.5rem !important;
+}
+
+#wpwrap, #wpcontent {
+    background: #f4f4f4;
+}
+
+#wpcontent {
+    padding-left: 0;
+}
+
+#wpcontent #wpbody-content .wrap {
+    margin: 0;
+}
+
+.recreviews-config {
+    color: #392774;
+}
+
+.recreviews-config .btn-create-account,
+.recreviews-config .btn-dashboard {
+    background-color: #209dce;
+}
+
+.recreviews-config .btn-already-account {
+    background-color: #e7c316;
+}
+
+.recreviews-config .btn {
+    color: white;
+}

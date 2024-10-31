@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rec.Reviews\n"
+"POT-Creation-Date: 2023-02-02 13:03+0100\n"
+"PO-Revision-Date: 2023-09-14 14:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rec-reviews.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#: classes/WC_RecReviews.php:436
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Dashboard</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Tableau de bord</a>"
+
+#: classes/WC_RecReviews.php:426
+#, php-format
+msgid "<a href=\"%s\">Settings</a>"
+msgstr "<a href=\"%s\">Réglages</a>"
+
+#: classes/WC_RecReviews.php:254
+msgid "Account linked with success"
+msgstr "Compte lié avec succès"
+
+#. Description of the plugin
+msgid "Automate video customer reviews on your e-commerce site"
+msgstr "Automatisez la récole d’avis vidéo sur votre site e-commerce"
+
+#: templates/onboarding.php:18
+msgid "Create my account"
+msgstr "Créer mon compte"
+
+#: templates/account.php:14
+msgid "Go to my dashboard"
+msgstr "Aller au tableau de bord"
+
+#. URI of the plugin
+msgid "https://recreviews.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.presta-module.com"
+msgstr ""
+
+#: templates/account.php:26
+msgid "Last run:"
+msgstr "Dernière exécution :"
+
+#: templates/onboarding.php:23
+msgid "Link my account"
+msgstr "Lier un compte existant"
+
+#: templates/order-details.php:19
+msgid "Order is not synchronized"
+msgstr "La commande n'est pas synchronisée"
+
+#: templates/order-details.php:15
+#, php-format
+msgid "Order synchronized & marked as valid at: %s"
+msgstr "Commande synchronisée et marquée comme valide à : %s"
+
+#: templates/order-details.php:11
+#, php-format
+msgid "Order synchronized at: %s"
+msgstr "Commande synchronisée à : %s"
+
+#: templates/account.php:23
+msgid "Orders waiting to be sent:"
+msgstr "Commandes en attente d’envoi :"
+
+#: classes/WC_RecReviews.php:276 classes/WC_RecReviews.php:345
+msgid ""
+"Please verify you have defined a logo in your theme, and Shop page in "
+"WooCommerce"
+msgstr ""
+"Veuillez vérifier que vous avez défini un logo dans votre thème, et une Page "
+"Boutique dans WooCommerce"
+
+#. Author of the plugin
+msgid "Presta-Module"
+msgstr ""
+
+#. Name of the plugin
+msgid "Rec.Reviews"
+msgstr ""
+
+#: templates/order-details.php:8
+msgid "Rec.Reviews Information"
+msgstr "Informations Rec.Reviews"
+
+#. %s WC download URL link.
+#: classes/WC_RecReviews.php:79
+#, php-format
+msgid ""
+"Rec.Reviews requires the WooCommerce plugin to be installed and active. You "
+"can download %s here."
+msgstr ""
+"Rec.Reviews nécessite la présence et l’activation de l’extension WooCommerce."
+" Vous pouvez télécharger %s ici."
+
+#: classes/WC_RecReviews.php:172
+msgid "Rec.Reviews Settings"
+msgstr "Réglages Rec.Reviews"
+
+#: templates/account.php:24
+msgid "Shipped orders:"
+msgstr "Commandes envoyées :"
+
+#: templates/account.php:21
+msgid "Synchronization information"
+msgstr "Informations de synchronisation"
+
+#: templates/account.php:25
+msgid "Total orders already sent:"
+msgstr "Nombre total de commandes envoyées :"
